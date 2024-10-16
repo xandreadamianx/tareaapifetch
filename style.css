@@ -1,0 +1,35 @@
+body {
+    background-color: #e0f7fa; 
+}
+
+.table-container {
+    margin-top: 50px;
+    border: 2px solid #007bff; 
+    border-radius: 5px;
+    overflow: hidden; 
+}
+
+table {
+    border-collapse: collapse; 
+    width: 100%; 
+}
+
+th, td {
+    border: 1px solid #007bff; /* Color de las líneas de la tabla */
+    padding: 10px; 
+    text-align: left; 
+}
+
+th {
+    background-color: #007bff; 
+    color: rgb(0, 0, 0); 
+    font-family:Verdana, Geneva, Tahoma, sans-serif
+}
+
+/* Spinner centrado otra vez por si acaso */
+.spinner-container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
